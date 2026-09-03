@@ -1,0 +1,9 @@
+{
+  "name": "JackpotEye AI",
+  "description": "An advanced real-time casino game analysis tool that uses Gemini's computer vision to track reel patterns and provide strategic betting insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
