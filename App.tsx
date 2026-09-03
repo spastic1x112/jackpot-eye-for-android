@@ -8,7 +8,6 @@ import { analyzeGameFrame } from './services/geminiService.ts';
 import { AnalysisResult, HistoryItem, LogEntry, AudioSettings, SoundProfile } from './types.ts';
 import { 
   History, 
-  LayoutDashboard, 
   Settings as SettingsIcon, 
   Play, 
   Square, 
