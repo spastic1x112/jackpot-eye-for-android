@@ -88,7 +88,7 @@ const AudioVisualizer: React.FC<AudioVisualizerProps> = ({ isActive }) => {
     return () => {
       if (animationFrameRef.current) cancelAnimationFrame(animationFrameRef.current);
       if (streamRef.current) streamRef.current.getTracks().forEach(track => track.stop());
-      // Fix: Check if context exists and is not already closed
+      // Safely close the audio context if it exists and is not already closed
       if (audioContextRef.current && audioContextRef.current.state !== 'closed') {
         audioContextRef.current.close().catch(e => console.warn("Error closing context", e));
       }
