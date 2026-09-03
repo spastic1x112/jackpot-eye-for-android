@@ -9,7 +9,6 @@ import { AnalysisResult, HistoryItem, LogEntry, AudioSettings, SoundProfile } fr
 import { 
   History, 
   LayoutDashboard, 
-  Settings as SettingsIcon, 
   Play, 
   Square, 
   Target, 
